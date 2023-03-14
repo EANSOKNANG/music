@@ -1,0 +1,4 @@
+for (let index = 0; index < 4; index++) {
+    music.playTone(262, music.beat(BeatFraction.Quarter))
+    music.playTone(392, music.beat(BeatFraction.Whole))
+}
